@@ -1,0 +1,31 @@
+html {
+  background-color: #ecd3bd;
+}
+
+header {
+  padding-top: 100px;
+  font-family: "Times New Roman";
+  color: #465352;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+div > p {
+  padding-top: 40px;
+  margin: auto;
+  font-family: "Courier New";
+  color: #465352;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+div  {
+  padding-top: 50px;
+  margin: auto;
+}
+
+
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
