@@ -110,15 +110,15 @@
                 // ------------- optional ------------- //
                 // backpaces a certain string faster
                 // ------------------------------------ //
-                if (self.arrayPos == 1){
-                    self.stopNum = 3;
-                    self.backDelay = 10;
-                }
+                //if (self.arrayPos == 1){
+                //    self.stopNum = 3;
+                //    self.backDelay = 10;
+                //}
                 //every other time, delete the whole typed string
-                else{
+                //else{
                     self.stopNum = 0;
                     self.backDelay = self.options.backDelay;
-                }
+                //}
 
                 // contain typing function in a timeout humanize'd delay
                 self.timeout = setTimeout(function() {
